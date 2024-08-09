@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImageUWant</title>
+  <link rel="stylesheet" href="global.css">
+  <link rel="icon" type="image/x-icon" href="image.webp">
+</head>
+<body>
+  <div  class="nav">
+    <h1 class="title">Search The Image you want</h1>
+    <h1 class="home" name="home"></h1>
+  </div>
+  <div class="ipn">
+    
+    <div class="ipcc">
+      <form action="/search" method="post">
+        <input type="text" name="query" placeholder="search" id="ipd" class="ipbar" required>
+        <button type="submit" class="btn">Search</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="jp">
+      <% imgl.forEach(element => { %>
+          <div class="image">
+              <img class="ik" src="<%= element.urls.regular %>" />
+          </div>
+          <%}
+      );
+       %>
+  </div>
+
+  
+</body>
+</html>

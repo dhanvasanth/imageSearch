@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow-x: hidden;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    position: relative;
+    top: -9px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.title{
+    font-family: sans-serif;
+    width: fit-content;
+    position: relative;
+
+}
+.ipn{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin:0px;
+}
+.title{
+    width:fit-content;
+    height: fit-content;
+}
+.ipcc{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+}
+.btn{
+    border-radius: 30px;
+    padding: 15px;
+    border:none;
+    margin-left: 10px;
+    height: 50px;
+    width:100px;
+    font-family: sans-serif;
+    font-weight:500px ;
+    font-family: sans-serif;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-family: sans-serif;
+}
+.btn:active{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    transform: scale(0.9);
+    font-family: sans-serif;
+}
+.ipbar{
+    width: 270px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: large;
+}
+.image{
+    position: relative;
+    display: flex;
+    margin-bottom: 50px;
+    height: 400px;
+    width: fit-content;
+    border-radius: 50px;
+    box-shadow: 30px 30px 70px rgb(100, 100, 100);
+    overflow: hidden;
+    margin:10px;
+}
+.ik{
+    size:80px;
+}
+.sep{
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
+}
+.jp{
+    position: relative;
+    margin:0;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
